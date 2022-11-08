@@ -92,7 +92,7 @@ DRINKS = [
            
 @bot.on_message(filters.command("start"))
 async def start_message(client: Client, message: Message):
-    await message.reply(f"Selamat datang silahkan tambahkan saya ke grup untuk memainkan saya")
+    await message.reply(f"Selamat datang silahkan tambahkan saya ke grup untuk memainkan saya\n/spill untuk spill\n/drink - minum dulu\n/request spill bikinan mu")
    
 @bot.on_message(filters.command("help"))
 async def help_message(client: Client, message: Message):
